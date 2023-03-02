@@ -1,0 +1,27 @@
+@media(max-width:767px){
+.ser-box, .serv-bx, .td-banner, .inner-container, .header-logo, .main, .main-contaner, .ser-bx-hm-inner, .three-bx, .hm-service, .rht-cont, .footer table, footer table, .cont-home, .serv-box{width:98%; /*text-align:center;*/ margin-left:0px; margin:0 auto;}
+.col-three, .hm-cnt-rht, .hm-cnt-lft, .ft-cont, .bann-lft, .bann-rht, .ser-bx, .team-lft, .team-rht, footer .footer-brand, .footer-nav, .footer-social, .footer-ns, .container-middle, .home-container, .tp-colthree-inner, .service-box.ser-lft, .service-box.ser-rht, .team-col, .sep-dv, .cont-main, .box_left, .box_right{width:98%; margin:0 auto; padding:2px 6px;}
+#HeaderControl_C table, #HeaderControl_C .head-top, #widgetsControl table, .header{width:100% !important; height: initial !important;}
+/*#widgetsControl div,*/ #widgetsControl table, .ser-bx-img, .ser-bx-rht, .menuleft, .Contentright, .maindiv{ width: 100% !important;}
+.ft-cont i{height:inherit;}
+.ser-cnt p{text-align:center !important;}
+.fl-head h2, .header h1, .title-name, .textvijay a{ font-size: 18px;  margin-left: 5px; float:inherit; padding:inherit;}
+.fl-head h4, .header h2, .title-name-sub, .textvijay1{ font-size: 15px;  margin-left: 5px; padding:inherit;}
+.fr-head, .textvijay{float:inherit;}
+img{ max-width:100%; }
+.head-top .mailus, .head-top .callus{width:100%; text-align:center; float:inherit;}
+.hm-serv-inner{width:96%; margin:10px auto; float:inherit;}
+.about-hm-inner-lft, .about-hm-inner-rht, .middle-cont, .aside, .box-left, .cont-mid, .left-panel, .left-panel-right, .right-panel{float: inherit; width: 98%;}
+#HeaderControl_C_ctl00_imageheader, .fr-head, .text23{display:none;}
+#HeaderControl_C_ctl00_tr_HeaderBackImage{ position: relative !important;}
+.content-head{float:inherit;}
+}
+@media(max-width:998px){
+#widgetsControl table, #HeaderControl_C table{width: 100% !important;}
+.headervijay, .aboutvijaygu, .aboutvijaygu, .head-top-in, .cnt-lft, .bx-upper .col-three, .maindiv, .box-s{width: 98% !important;}
+#HeaderControl_C .container-middle, .main-cont { width: 100%;}
+#HeaderControl_C_ctl00_imageheader{display:none;}
+#HeaderControl_C_ctl00_tr_HeaderBackImage{position: relative !important;}
+#HomepagecontentControl_C table tr td { /* border: none;  display: block;   width: 100%;height: inherit;*/}
+.header, .logo, header, .home-body-iner, .home-body-left, .sep-dv-h{width:inherit ;}
+}

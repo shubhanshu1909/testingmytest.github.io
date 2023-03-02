@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main-table {
+    font-family: Arial;
+    font-weight: normal;
+    Font-size: 13px;
+    color: #333;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.main-heading {
+    font-weight: bold;
+    Font-size: 18px;
+    color: #0c3c60;
+    line-height: 36px;
+    border-bottom: 1px #ccc solid;
+    text-transform: uppercase;
+}
+
+.sub-heading {
+    font-weight: bold;
+    Font-size: 15px;
+    color: #333;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.team-title {
+    font-weight: bold;
+    Font-size: 14px;
+    color: #333;
+    line-height: 30px;
+}
+
+.contact-us {
+    padding-left: 20px;
+    line-height: 24px;
+}

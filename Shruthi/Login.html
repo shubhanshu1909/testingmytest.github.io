@@ -1,0 +1,199 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.vnvca.com/Login.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Feb 2023 10:07:27 GMT -->
+<head><title>
+	vnvca.com
+</title><meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" /><meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" /><link rel="stylesheet" type="text/css" href="https://www.vnvca.com/Usercss/bootstrap.min.css" /><link rel="stylesheet" type="text/css" href="https://www.vnvca.com/css/font-awesome.min.css" />
+    <script language="javascript" type="text/javascript">
+
+        window.onload = pageforward;
+        function pageforward() {
+            history.forward(1);
+            return false;
+        }
+
+        function goback() {
+            history.back(1);
+        } 
+    </script>
+    <script language="javascript" type="text/javascript">
+        function ch() {
+            location.replace("https://www.vnvca.com/home.aspx");
+            return false;
+        }
+        function trim(string) {
+            //'remove leading spaces
+            while (string.substr(0, 1) == " ")
+                string = string.substring(1, string.length);
+            //'remove trailing spaces 
+            while (string.substr(string.length - 1, 1) == " ")
+                string = string.substring(0, string.length - 2);
+            return string;
+        }
+        function isblank(t) {
+            if (trim(t.value) == "")
+                alert("Blank User Name or Password");
+        }
+        function checkblank() {
+            var txt1 = document.getElementById("username");
+            var txt2 = document.getElementById("passwd");
+
+            if (txt1.value == "" || txt1.value == "User Name") {
+                alert("Blank User Name");
+                //_doPostBack('t','');
+                return false;
+            }
+            if (txt2.value == "" || txt2.value == "Password") {
+                alert("Blank Password");
+                return false;
+                //_doPostBack('t','');
+            }
+            return true;
+        }
+
+        function txt_focus() {
+
+            document.getElementById("passwd").value = "Password";
+            //document.getElementById("txtUserName") .focus();   
+            document.getElementById("username").value = "User Name";
+        }
+        function un() {
+            //alert('in');
+            document.getElementById("username").value = "";
+        }
+        function pwd() {
+            document.getElementById("passwd").value = "";
+        }
+        function unb() {
+            if (trim(document.getElementById("username").value) == "") {
+                document.getElementById("username").value = "User Name";
+            }
+        }
+        function pwdb() {
+            if (trim(document.getElementById("passwd").value) == "") {
+                document.getElementById("passwd").value = "Password";
+            }
+        }
+        function RefreshCaptcha() {
+            var img = document.getElementById("imgCaptcha");
+            img.src = "Handler.ashx?query=" + Math.random();
+        }
+    </script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" /><link href="https://www.vnvca.com/usercss/login.css" rel="stylesheet" type="text/css" /></head>
+<body onload="txt_focus();" class="login-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="login-page">
+                    <div class="login-form">
+                        <div class="logo-section">
+                            <div class="logo-section-inner">
+                                <img id="orglogo" src="https://www.vnvca.com/Image/LoginDefault.png" style="border-width:0px;" />
+                            </div>
+                            <div class="logo-section-head">
+                                <h2 id="orgname">
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="form-login">
+                            <div class="user-icn">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <h3>
+                                Login</h3>
+                            <form name="form1" method="post" action="https://www.vnvca.com/Login.aspx" id="form1" class="form-lg">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTU3ODQ5ODYzOA9kFgQCAw8PFgIeCEltYWdlVXJsBRZJbWFnZS9Mb2dpbkRlZmF1bHQucG5nZGQCBw9kFgICAQ8PFgIeBFRleHRlZGRkD+qhDy0+NvEJnIpNYh1arXpPEfKKxrS0wQ6RvL5OJ4s=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="https://www.vnvca.com/WebResource.axd?d=EeZP0aJ5N3prZ_P-4dtKsV9OThozlFETVl0KxB679KDR2W9_KMguPuXLd7vN3kmL7XIv15a_2wFbVwI98WJ6JT677dgwfio4Qkcqc08Xexc1&amp;t=637811929220000000" type="text/javascript"></script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C2EE9ABB" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAUq4LwV0kQgniAP41p8xwLBKhoCyVdJtLIis5AgYZ/RYULWkrvPKXekN8WJfP1NBw/EmIbn9tQCGmOOWdQ6FuKZdqQsUjd5IAlKaHQJ80vpSbVornWeMu6zkx9VJWJL6ahukPi8luexf61ucnsUct6Q" />
+</div>
+                            <span id="lbl_Error"></span>
+                            <div class="rel-box">
+                                <i class="fa fa-user"></i>
+                                <input name="username" type="text" id="username" class="same-input" onfocus="un();" onblur="unb();" />
+                            </div>
+                            <div class="rel-box">
+                                <i class="fa fa-lock"></i>
+                                <input name="passwd" type="password" id="passwd" class="same-input" onfocus="pwd();" onblur="pwdb();" />
+                            </div>
+                            <div class="text-center">
+                                <span>
+                                    <img src="https://www.vnvca.com/Handler.ashx" id="imgCaptcha" />
+                                    <a href="#" onclick="javascript:RefreshCaptcha();"><i class="fa fa-refresh" style="position: inherit;
+                                        padding-left: 15px;color: #39adad;    font-size: 23px;"></i></a></span>
+                            </div>
+                            <div class="rel-box">
+                               <i class="fa fa-wpexplorer fa-rotate-180"></i>
+                                    <input name="txtCaptha" type="text" id="txtCaptha" autocomplete="off" class="same-input" placeholder="Enter Captcha" />
+                            </div>
+                            
+                            <!--<div class="cl"></div>-->
+                            
+                            <button onclick="__doPostBack('btn_OK','')" id="btn_OK" class="submit-btn" onclientclick="return checkblank();">
+                                <span></span>Log In<span></span></button>
+                            
+                            
+                            
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+</form>
+                        </div>
+                        <div class="cl">
+                        </div>
+                    </div>
+                    <div class="shad-box">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+	<div class="container">
+		<div class="footer-lft"><i class="fa fa-info icon info"></i>By logging in, you're accepting cookies for this site.</div>
+    	<div class="footer-rht">
+   		<strong>Powered By :</strong> <a href="https://webtel.in/" target="_blank">Webtel Electrosoft Pvt. Ltd.</a> </div>
+    </div>
+</footer>
+</body>
+
+<!-- Mirrored from www.vnvca.com/Login.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Feb 2023 10:07:27 GMT -->
+</html>
